@@ -12,7 +12,7 @@
 // }
 
 function quoteMaker(phrase) {
-    '"'.concat(str, '"');
+    '"'.concat(phrase, '"');
 }
 
  console.log(quoteMaker("That sure is nice."));
