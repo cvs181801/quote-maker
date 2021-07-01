@@ -2,8 +2,14 @@
 
 //create a way to add quotes to the phrase.
 
+// function quoteMaker(phrase) {
+//     return `"${phrase}"`
+// }
+
+
+
 function quoteMaker(phrase) {
-    return `"${phrase}"`
+    return '"' + phrase + '"';
 }
 
-console.log(quoteMaker("That sure is nice."));
+ console.log(quoteMaker("That sure is nice."));
